@@ -39,5 +39,8 @@ jobs:
           echo "test/requirements.txt not found, skipping."
         fi
 
+    - name: Ensure pytest is installed
+      run: pip install pytest
+
     - name: Run tests
       run: pytest
