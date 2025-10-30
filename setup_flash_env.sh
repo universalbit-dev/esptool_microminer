@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# setup_python3_env.sh
+# setup_flash_env.sh
 #
 # Automated environment setup + optional flashing for ESP32 BTC MicroMiner project.
 # Place this script in the repository root (esptool_microminer) and run:
-#   chmod +x setup_python3_env.sh
-#   ./setup_python3_env.sh [--repo-dir PATH] [--port /dev/ttyUSB0] [--no-flash] [--yes-flash] [--skip-sudo]
+#   chmod +x setup_flash_env.sh
+#   ./setup_flash_env.sh [--repo-dir PATH] [--port /dev/ttyUSB0] [--no-flash] [--yes-flash] [--skip-sudo]
 #
 # Behaviour:
 #  - Creates a repo-local virtualenv at .venv (or re-uses it)
