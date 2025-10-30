@@ -1,6 +1,18 @@
-# BTC MicroMiner using ESP32 NodeMCU WiFi CP2102
+**BTC MicroMiner using ESP32 NodeMCU WiFi CP2102**
 
-![esptool](https://github.com/universalbit-dev/esptool/blob/master/images/serial_monitor_arduino-1.8.19.png)
+**==> [Automated environment setup + optional flashing for ESP32 BTC MicroMiner project](https://github.com/universalbit-dev/esptool_microminer/blob/microminer/setup_flash_env.md) <==**
+
+##### This script automates creating a Python virtual environment, installing esptool and dependencies, configuring access to serial devices, and (optionally) flashing an ESP32 device with the project firmware
+
+## ⚡ Quick start
+
+```
+chmod +x setup_flash_env.sh
+```
+**Run the script**
+```   
+sudo ./setup_flash_env.sh
+```
 
 ## Table of Contents
 1. [Introduction](#introduction)
