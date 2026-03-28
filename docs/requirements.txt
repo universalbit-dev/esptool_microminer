@@ -1,6 +1,7 @@
 esp-docs~=1.10
 setuptools>=78.1.1  # not directly required, pinned by Snyk to avoid a vulnerability
 pillow>=10.2.0
+wavedrom==2.0.3.post3
 urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
 cairosvg>=2.7.0 # not directly required, pinned by Snyk to avoid a vulnerability
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
